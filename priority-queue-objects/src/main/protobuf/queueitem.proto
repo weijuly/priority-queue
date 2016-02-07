@@ -1,0 +1,10 @@
+package priorityqueue;
+
+option java_package = "com.weijuly.develop.pq.data";
+option java_outer_classname = "QueueDataProtos";
+
+message QueueItem {
+	required int32 priority = 1;
+	required string channel = 2;
+	required string data = 3;
+}
